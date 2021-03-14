@@ -10,7 +10,7 @@ DELETE
 These are some of the json libraries that can be used 
 gson
 jackson
-son
+json
 Simple json 
 */
 
@@ -21,9 +21,7 @@ import java.util.HashMap;
 import java.util.Map;
 import org.json.simple.JSONObject;
 import org.testng.annotations.Test;
-
 import io.restassured.http.ContentType;
-
 import static io.restassured.RestAssured.*;
 
 public class Post_Request01 {
@@ -45,7 +43,7 @@ public class Post_Request01 {
 		request1.put("name", "Mohammad");
 		request1.put("job", "Trainer");
 		
-		System.out.println(request1.toJSONString());
+		System.out.println(request1);
 		//For json serialization
 		System.out.println(request1.toJSONString());
 		
