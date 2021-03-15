@@ -90,7 +90,7 @@ public class Post_Request01 {
 		when().
 			put("https://reqres.in/api/users").
 		then().
-		//status code 201 is for successful post request creation
+		//status code 201 is for successful post request creation.
 			statusCode(200).
 			log().all();
 	}
