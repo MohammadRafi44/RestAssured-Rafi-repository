@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="1" total="2" passed="1">
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="4798" started-at="2021-03-14T20:36:00 AST" finished-at="2021-03-14T20:36:04 AST">
+  <suite started-at="2021-03-15T18:27:33 AST" name="Default suite" finished-at="2021-03-15T18:27:35 AST" duration-ms="1942">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="4798" started-at="2021-03-14T20:36:00 AST" finished-at="2021-03-14T20:36:04 AST">
-      <class name="api_WebServices.Get_Request01">
-        <test-method status="PASS" signature="test_01()[pri:0, instance:api_WebServices.Get_Request01@704a52ec]" name="test_01" duration-ms="4718" started-at="2021-03-14T20:36:00 AST" finished-at="2021-03-14T20:36:04 AST">
+    <test started-at="2021-03-15T18:27:33 AST" name="Default test" finished-at="2021-03-15T18:27:35 AST" duration-ms="1942">
+      <class name="api_WebServices.Examples">
+        <test-method signature="test()[pri:0, instance:api_WebServices.Examples@355ce81c]" started-at="2021-03-15T18:27:33 AST" name="test" finished-at="2021-03-15T18:27:35 AST" duration-ms="1896" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- test_01 -->
-      </class> <!-- api_WebServices.Get_Request01 -->
+        </test-method> <!-- test -->
+      </class> <!-- api_WebServices.Examples -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
