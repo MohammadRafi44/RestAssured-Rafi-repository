@@ -1,15 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
-<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+<suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
       <class name="api_WebServices.PostPutExamples">
         <methods>
-<<<<<<< HEAD
-          <include name="test_put"/>
-=======
           <include name="test_post"/>
->>>>>>> branch 'master' of https://github.com/MohammadRafi44/RestAssured-Rafi-repository.git
         </methods>
       </class> <!-- api_WebServices.PostPutExamples -->
     </classes>

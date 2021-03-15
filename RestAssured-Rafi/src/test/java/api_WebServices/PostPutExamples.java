@@ -7,6 +7,9 @@ import io.restassured.http.ContentType;
 
 import static io.restassured.RestAssured.*;
 
+import java.lang.reflect.Method;
+import java.util.Hashtable;
+
 
 /*
  * POST -- Creates new Resource
@@ -19,7 +22,7 @@ import static io.restassured.RestAssured.*;
 public class PostPutExamples {
 
 	@Test
-	public void test_get01() {
+	public void test_get01(Hashtable<String , String> data) throws Exception {
 		
 		/*
 		 * baseURI -- is a method coming from RestAssured -- to set baseurl -- eg :- http://localhost
@@ -36,7 +39,7 @@ public class PostPutExamples {
 	
 	
 	@Test
-	public void test_get02() {
+	public void test_get02(Hashtable<String , String> data) {
 		baseURI = "http://localhost:3000/";
 		/*
 		 * This is equal to calling "http://localhost:3000/subjects?name=Automation"
@@ -49,7 +52,7 @@ public class PostPutExamples {
 	}
 	
 	
-	@Test
+	//@Test
 	public void test_post() {
 		
 		/*
@@ -79,7 +82,7 @@ public class PostPutExamples {
 	
 	}
 	
-	@Test
+	//@Test
 	public void test_patch() {
 		
 		/*
@@ -108,7 +111,7 @@ public class PostPutExamples {
 	
 	}
 	
-	@Test
+	//@Test
 	public void test_put() {
 		
 		/*
@@ -139,7 +142,7 @@ public class PostPutExamples {
 	
 	}
 	
-	@Test
+	//@Test
 	public void test_delete() {
 		baseURI = "http://localhost:3000/";
 		
