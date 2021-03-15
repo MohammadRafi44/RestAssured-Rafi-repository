@@ -1,0 +1,36 @@
+{
+  "users": [
+    {
+      "firstname": "pavan",
+      "lastname": "Kunapareddy",
+      "subjectid": 1,
+      "id": 1
+    },
+    {
+      "firstname": "pavan1",
+      "lastname": "Kunapareddy1",
+      "subjectid": 2,
+      "id": 2
+    },
+    {
+      "firstname": "pavan2",
+      "lastname": "Kunapareddy2",
+      "subjectid": 3,
+      "id": 3
+    }
+  ],
+  "subjects": [
+    {
+      "id": 1,
+      "name": "Automation"
+    },
+    {
+      "id": 2,
+      "name": "Selenium"
+    },
+    {
+      "id": 3,
+      "name": "Devops"
+    }
+  ]
+}
