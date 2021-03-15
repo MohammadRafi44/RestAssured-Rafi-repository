@@ -60,6 +60,7 @@ public class PostPutExamples {
 		request.put("firstName", "Tom");
 		request.put("lastname", "Moody");
 		request.put("subjectid", 1);
+		request.put("id", 6);
 		
 		
 		baseURI = "http://localhost:3000/";
