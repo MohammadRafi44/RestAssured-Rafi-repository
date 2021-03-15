@@ -5,7 +5,11 @@
     <classes>
       <class name="api_WebServices.PostPutExamples">
         <methods>
+<<<<<<< HEAD
           <include name="test_put"/>
+=======
+          <include name="test_post"/>
+>>>>>>> branch 'master' of https://github.com/MohammadRafi44/RestAssured-Rafi-repository.git
         </methods>
       </class> <!-- api_WebServices.PostPutExamples -->
     </classes>
