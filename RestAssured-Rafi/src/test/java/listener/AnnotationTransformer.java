@@ -10,7 +10,6 @@ import java.lang.reflect.Method;
 
 public class AnnotationTransformer implements IAnnotationTransformer {
     int count = 0;
-   
     public void transform(ITestAnnotation annotation, Class testClass, Constructor testConstructor, Method testMethod) {
             try {
                 if (count == 0) {

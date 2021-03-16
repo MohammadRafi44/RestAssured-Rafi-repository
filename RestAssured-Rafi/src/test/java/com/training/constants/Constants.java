@@ -11,8 +11,8 @@ public class Constants {
     public static final String EXTENTCONFIGFILEPATH = System.getProperty("user.dir") + "/src/test/resources/config/extent-config.xml";
     public static final String SCREENSHOTPATH = System.getProperty("user.dir") + "/Screenshots";
     public static final String TESTDATAPATH = System.getProperty("user.dir") + "/resources/testexcel/ControlFile.xlsx";
-    
-//    C:\Users\mohammad.shaikh\git\RestAssured-Rafi repository\RestAssured-Rafi\resources\testexcel
+//    public static final String TESTDATAPATH = "C:/Users/mohammad.shaikh/git/RestAssured-Rafi repository/RestAssured-Rafi/resources/testexcel.xlsx";
+   
     //Other constants
     public static final int IMPLICITWAIT = 20;
     public static final int EXPLICITWAIT = 20;
