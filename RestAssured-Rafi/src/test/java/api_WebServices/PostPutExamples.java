@@ -27,7 +27,9 @@ public class PostPutExamples {
 		/*
 		 * baseURI -- is a method coming from RestAssured -- to set baseurl -- eg :- http://localhost
 		 */
-		baseURI = "http://localhost:3000/";  
+		//baseURI = "http://localhost:3000/";
+		
+		baseURI = data.get("baseUri");
 		
 		given().
 		get("/users"). // setting URI path 
@@ -40,11 +42,15 @@ public class PostPutExamples {
 	
 	@Test
 	public void test_get02(Hashtable<String , String> data) {
-		baseURI = "http://localhost:3000/";
+		//baseURI = "http://localhost:3000/";
+		
+		baseURI = data.get("baseUri");
+		
 		/*
 		 * This is equal to calling "http://localhost:3000/subjects?name=Automation"
 		 */
-		given().param("name", "Automation").
+		//given().param("name", "Automation").
+		given().param(data.get("paramkey"), data.get("paramvalue")).
 		get("/subjects").  // URI Path
 		then().
 		statusCode(200).
