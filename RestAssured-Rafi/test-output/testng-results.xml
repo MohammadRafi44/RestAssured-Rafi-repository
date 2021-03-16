@@ -1,28 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2021-03-15T21:48:04 AST" name="Regression Suite" finished-at="2021-03-15T21:48:06 AST" duration-ms="2056">
+  <suite name="Regression Suite" duration-ms="2089" started-at="2021-03-16T19:01:15 AST" finished-at="2021-03-16T19:01:17 AST">
     <groups>
     </groups>
-    <test started-at="2021-03-15T21:48:04 AST" name="Test" finished-at="2021-03-15T21:48:06 AST" duration-ms="2056">
+    <test name="Test" duration-ms="2089" started-at="2021-03-16T19:01:15 AST" finished-at="2021-03-16T19:01:17 AST">
       <class name="api_WebServices.PostPutExamples">
-        <test-method signature="test_get01(java.util.Hashtable)[pri:1, instance:api_WebServices.PostPutExamples@30990c1b]" started-at="2021-03-15T21:48:04 AST" name="test_get01" description="Executing from Excel" finished-at="2021-03-15T21:48:06 AST" duration-ms="1876" status="PASS">
+        <test-method status="PASS" signature="test_get01(java.util.Hashtable)[pri:1, instance:api_WebServices.PostPutExamples@645aa696]" name="test_get01" duration-ms="1899" started-at="2021-03-16T19:01:15 AST" finished-at="2021-03-16T19:01:17 AST">
           <params>
             <param index="0">
               <value>
-                <![CDATA[{pathLocator=, username=, SearchField=, headerKey=, firstname=, headerValue=, baseUri=, execute=YES, password=, TestCaseName=test_get01}]]>
+                <![CDATA[{pathLocator=, username=, SearchField=, headerKey=, paramvalue=, paramkey=, firstname=, headerValue=, baseUri=http://localhost:3000/, execute=YES, password=, TestCaseName=test_get01}]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test_get01 -->
-        <test-method signature="test_get02(java.util.Hashtable)[pri:1, instance:api_WebServices.PostPutExamples@30990c1b]" started-at="2021-03-15T21:48:06 AST" name="test_get02" description="Executing from Excel" finished-at="2021-03-15T21:48:06 AST" duration-ms="39" status="PASS">
+        <test-method status="PASS" signature="test_get02(java.util.Hashtable)[pri:1, instance:api_WebServices.PostPutExamples@645aa696]" name="test_get02" duration-ms="38" started-at="2021-03-16T19:01:17 AST" finished-at="2021-03-16T19:01:17 AST">
           <params>
             <param index="0">
               <value>
-                <![CDATA[{pathLocator=, username=adfsad, SearchField=, headerKey=, firstname=dsfasefas, headerValue=, baseUri=, execute=YES, password=dfsdf, TestCaseName=test_get02}]]>
+                <![CDATA[{pathLocator=, username=, SearchField=, headerKey=, paramvalue=Automation, paramkey=name, firstname=, headerValue=, baseUri=http://localhost:3000/, execute=YES, password=, TestCaseName=test_get02}]]>
               </value>
             </param>
           </params>
