@@ -5,7 +5,7 @@
     <classes>
       <class name="api_WebServices.PostPutExamples">
         <methods>
-          <include name="test_post"/>
+          <include name="test_get01"/>
         </methods>
       </class> <!-- api_WebServices.PostPutExamples -->
     </classes>

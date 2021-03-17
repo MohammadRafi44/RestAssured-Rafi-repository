@@ -2,22 +2,22 @@
 <testng-results ignored="1" total="2" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2021-03-16T20:08:03 AST" name="Regression Suite" finished-at="2021-03-16T20:08:04 AST" duration-ms="1749">
+  <suite started-at="2021-03-17T09:30:42 AST" name="Regression Suite" finished-at="2021-03-17T09:30:43 AST" duration-ms="1744">
     <groups>
     </groups>
-    <test started-at="2021-03-16T20:08:03 AST" name="Test" finished-at="2021-03-16T20:08:04 AST" duration-ms="1749">
+    <test started-at="2021-03-17T09:30:42 AST" name="Test" finished-at="2021-03-17T09:30:43 AST" duration-ms="1744">
       <class name="api_WebServices.PostPutExamples">
-        <test-method signature="test_get02(java.util.Hashtable)[pri:1, instance:api_WebServices.PostPutExamples@15eebbff]" started-at="2021-03-16T20:08:03 AST" name="test_get02" finished-at="2021-03-16T20:08:04 AST" duration-ms="1559" status="PASS">
+        <test-method signature="test_get01(java.util.Hashtable)[pri:1, instance:api_WebServices.PostPutExamples@15eebbff]" started-at="2021-03-17T09:30:42 AST" name="test_get01" finished-at="2021-03-17T09:30:43 AST" duration-ms="1563" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[{pathLocator=, username=, SearchField=, headerKey=, paramvalue=Automation, paramkey=name, firstname=, headerValue=, baseUri=http://localhost:3000/, execute=YES, password=, TestCaseName=test_get02}]]>
+                <![CDATA[{pathLocator=, username=, SearchField=, headerKey=, paramvalue=, paramkey=, firstname=, headerValue=, baseUri=http://localhost:3000/, execute=YES, password=, TestCaseName=test_get01}]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- test_get02 -->
+        </test-method> <!-- test_get01 -->
       </class> <!-- api_WebServices.PostPutExamples -->
     </test> <!-- Test -->
   </suite> <!-- Regression Suite -->

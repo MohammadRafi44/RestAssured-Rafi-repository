@@ -11,7 +11,7 @@
 
     <test thread-count="1"  name="Test">
         <classes>
-            <class name="api_WebServices.PostPutExamples"/>
+            <class name="api_WebServices.PostPutExamples"/> 
     
 
         </classes>

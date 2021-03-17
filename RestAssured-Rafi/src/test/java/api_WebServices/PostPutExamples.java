@@ -28,7 +28,9 @@ public class PostPutExamples {
 		 * baseURI -- is a method coming from RestAssured -- to set baseurl -- eg :- http://localhost
 		 */
 		//baseURI = "http://localhost:3000/";
+		//Rafi
 		
+		baseURI = data.get("baseUri");
 		baseURI = data.get("baseUri");
 		
 		given().
