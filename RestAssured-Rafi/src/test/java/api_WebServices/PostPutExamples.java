@@ -32,7 +32,7 @@ public class PostPutExamples {
 		
 		baseURI = data.get("baseUri");
 		baseURI = data.get("baseUri");
-		
+		baseURI = data.get("baseUri rafi");		
 		given().
 		get("/users"). // setting URI path 
 		then().
